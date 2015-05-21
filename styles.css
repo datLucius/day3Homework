@@ -1,0 +1,356 @@
+/* golf ball vector from http://www.onegolf.ga/wp-content/uploads/2015/01/33846.png */
+
+body {
+  width: 1200px;
+  border: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+.ballVector {
+  width: 50px;
+  height: 50px;
+  opacity: 0.9;
+  vertical-align: middle;
+}
+
+.topHeader {
+  width: 1200px;
+  height: 500px;
+}
+
+.titleandtag {
+  text-align: center;
+vertical-align: middle;
+top: 100px;
+position: absolute;
+  width: 1200px;
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
+.titleandtag h1 {
+  color: white;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 100px;
+  font-weight: 200;
+  text-shadow: 2px 2px rgba(0,0,0,0.75);
+  position: relative;
+}
+
+.titleandtag h3 {
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  top: -60px;
+  color: #000e07;
+  position: relative;
+}
+
+.blog {
+  position: relative;
+  left: 100px;
+  width: 300px;
+  height: 66px;
+  display: inline-block;
+  float:left;
+  color: #000e07;
+  font-size: 20px;
+  font-family:'Oswald';
+  font-weight: 600;
+  vertical-align: middle;
+  opacity: 0.6;
+}
+
+.search {
+  position: relative;
+  right: 100px;
+  width: 200px;
+  height: 66px;
+  display: inline-block;
+  float: right;
+  color: #000e07;
+  font-family: 'Oswald';
+  font-size: 25px;
+}
+
+.golfCourse {
+  position: absolute;
+  width: 1250px;
+  height: 500px;
+}
+.main {
+  background-color: white;
+  width: 1150px;
+  border-bottom: 4px solid lightgrey;
+  position: relative;
+  padding: 50px 50px 50px 50px;
+  margin: 50px auto;
+}
+
+.leftColumn {
+  position: relative;
+  display: inline-block;
+  width:700px;
+}
+
+
+.excitingTitle {
+  font-family: 'Oswald', sans-serif;
+  color: #000e07;
+  font-weight: 400;
+  font-size: 75px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.author {
+  display: inline-block;
+  margin-top: -20px;
+}
+
+.author p {
+  font-family: sans-serif;
+  color: lightgrey;
+}
+
+.colorAuthor {
+  color: #005901;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-right: 10px;
+}
+
+.date {
+  text-decoration: underline;
+  color: lightgrey;
+}
+
+
+.info {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  height: 500px;
+}
+
+
+
+.rightColumn {
+  position: relative;
+  display:inline-block;
+  width: 400px;
+  float: right;
+}
+
+.mostPop {
+  background-color: white;
+  width: 100%;
+  position: relative;
+  height: 300px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Oswald';
+  font-weight: lighter;
+  color: #000e07;
+  display: block;
+  margin: 0 auto;
+  }
+
+
+.bottom {
+  background-color: #001900;
+  width: 1250px;
+  position: relative;
+  height: 200px;
+  display: block;
+  margin-top: -5px;
+
+}
+
+.smallTony {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.authorInfo {
+  width: 75%;
+  height: 35%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.medTony {
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.nameColor {
+  font-family: 'Oswald';
+  font-size: 30px;
+  color: #005901;
+  display: block;
+  text-align: center;
+}
+
+.socialMedia {
+  display: inline;
+  margin: 5px 10px;
+  color: lightgrey;
+  display: block;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.golfer {
+  width: 100%;
+}
+
+.aboutMorals {
+  text-decoration: underline;
+  color: lightgrey;
+  font-family: 'Helvetica';
+  float: right;
+}
+
+.sidebarText {
+  width: 100%;
+}
+.sidebarHeading {
+  font-family: 'Oswald';
+  font-size: 30px;
+  color: #005901;
+  text-align: middle;
+}
+
+.buttonbox {
+  display: block;
+  width: 100%;
+  height: 60px;
+  margin-top: 20px;
+}
+
+.button1 {
+  width: 200px;
+  height: 40px;
+  background-color: #c0d1c0;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+  float: left;
+}
+
+
+.leftIcon {
+  height: 100%;
+  position: relative;
+  float: left;
+  background-color: grey;
+  width: 40px;
+  display: table;
+}
+
+.fa {
+  color: white;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+}
+
+.rightBox {
+  height: 100%;
+  width: 160px;
+  position: relative;
+  float: left;
+  background-color: black;
+  display: table;
+}
+
+.buttonText {
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  font-family: 'Helvetica'
+}
+
+.button2 {
+  width: 200px;
+  height: 40px;
+  background-color: #c0d1c0;
+  position: relative;
+  float: left;
+  margin-left: 20px;
+}
+
+.button3 {
+  width: 200px;
+  height: 40px;
+  background-color: #3e823f;
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+}
+
+}
+.button3 .leftIcon {
+  width: 40px;
+  height: 100%;
+  position: relative;
+  float: left;
+  display: inline-block;
+  background-color: #424d42;
+}
+.quote {
+  display: block;
+  border-left: 2px solid lightgrey;
+  font-family: 'Helvetica';
+  padding: 20px;
+  font-size: 40px;
+  color: green;
+}
+.navClickers {
+  width: 1250px;
+  position: relative;
+  height: 400px;
+  display: inline-block;
+}
+
+.bothimages {
+  position: relative;
+  width: 25%;
+  float:left;
+}
+
+.navpics {
+  width: 100%;
+  height: 400px;
+  margin:0;
+  padding: 0;
+  position: relative;
+}
+
+.transparentColor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  opacity: 0.4;
+}
+
+.transparentColor:hover {
+  opacity: 0;
+}
